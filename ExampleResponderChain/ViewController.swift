@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         
         // Title
         titleLabel.text = "Responder Chain & HitTest Demo"
-        titleLabel.font = .systemFont(ofSize: 28, weight: .bold)
+        titleLabel.font = .systemFont(ofSize: 24, weight: .bold)
         titleLabel.textAlignment = .center
         titleLabel.textColor = .label
         
@@ -100,7 +100,7 @@ class ViewController: UIViewController {
             hitTestDemoView.topAnchor.constraint(equalTo: responderChainDemoView.bottomAnchor, constant: 30),
             hitTestDemoView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 20),
             hitTestDemoView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -20),
-            hitTestDemoView.heightAnchor.constraint(equalToConstant: 300),
+            hitTestDemoView.heightAnchor.constraint(equalToConstant: 380),
             hitTestDemoView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -20)
         ])
     }
